@@ -35,8 +35,8 @@ export const PingButton: FC = () => {
 	}
 
 	return (
-		<div className={styles.buttonContainer} onClick={onClick}>
-			<button className={styles.button}>Ping!</button>
+		<div className="left align">
+		     <img src="/main.png" height={600} width={700} />
 		</div>
 	)
 }
