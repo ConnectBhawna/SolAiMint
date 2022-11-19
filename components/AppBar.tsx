@@ -6,8 +6,7 @@ import Image from 'next/image'
 export const AppBar: FC = () => {
     return (
         <div className={styles.AppHeader}>
-            <Image src="/solanaLogo.png" height={30} width={200} />
-            <span>Wallet-Adapter Example</span>
+            <Image src="/logo.png" height={100} width={200} />
             <WalletMultiButton />
         </div>
     )
